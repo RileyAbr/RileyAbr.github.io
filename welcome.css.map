@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACiCA,OAAO,CAAC,wGAAI;AD/BZ,AAAA,gBAAgB,CAAC;EACb,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,MAAM;CACjB;;AAED,AAAA,cAAc,CAAC;EACX,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,aAAa,CAAC;EACV,SAAS,EAAE,MAAM;CACpB;;AACD,AAAA,aAAa,CAAC;EACV,KAAK,ECMU,OAAO,CDNE,UAAU;CACrC;;AAED,AAAA,aAAa,AAAA,MAAM;AACnB,aAAa,AAAA,MAAM;AACnB,aAAa,AAAA,OAAO,CAAC;EACjB,eAAe,EAAE,SAAS;CAC7B",
+    "sources": [
+        "welcome.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "welcome.css"
+}

@@ -1,0 +1,8 @@
+@import "variables";
+
+div.gm4html5_div_class {
+  width: min-content;
+  margin: 20px auto 0;
+  padding: 0px;
+  @include lightShadowBorder;
+}

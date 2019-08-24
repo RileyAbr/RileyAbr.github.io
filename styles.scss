@@ -1,0 +1,86 @@
+@import "variables";
+
+// Standard element styles
+html {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+body {
+  @include triBackground();
+  min-height: 100vh;
+  @include bodyFont();
+}
+
+a {
+  text-decoration: none;
+  color: $fontColorBlack;
+}
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: $fontColorBlack;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include headerFont;
+}
+
+// The header is a constant 110px, which means the content for each page should be offset by that much
+main {
+  padding: 10px 0;
+}
+
+// Override random webkit button rendering
+button {
+  -webkit-appearance: none;
+}
+
+//   Header Styles
+.navbar {
+    @include headerFont;
+    width: 100%;
+}
+
+.navbar-text {
+    font-size: 2.1em;
+    color: $fontColorBlack !important;
+}
+
+#RA-logo {
+    @include opacityTransition;
+}
+#RA-logo:hover,
+#RA-logo:focus,
+#RA-logo:active {
+    @include hoverOpacityTransition;
+}
+
+#nametag {
+    font-size: 1.8em;
+    @include opacityTransition;
+}
+#nametag:hover,
+#nametag:focus,
+#nametag:active {
+    @include hoverOpacityTransition;
+}
+
+@media only screen and (max-width: nth($media-sizes, 3)) {
+    #RA-logo {
+        width: 60px;
+        height: auto;
+    }
+    #nametag {
+        font-size: 1.5em;
+    }
+}

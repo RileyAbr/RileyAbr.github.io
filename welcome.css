@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:300,500|Titillium+Web:300,400,400i,700&display=swap");
+.welcome-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.welcome-title {
+  font-size: 8rem;
+}
+
+.welcome-text {
+  font-size: 1.9rem;
+}
+
+.website-link {
+  color: #b539d8 !important;
+}
+
+.website-link:hover,
+.website-link:focus,
+.website-link:active {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=welcome.css.map */

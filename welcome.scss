@@ -1,0 +1,23 @@
+@import "variables";
+
+.welcome-wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.welcome-title {
+    font-size: 8rem;
+}
+
+.welcome-text {
+    font-size: 1.9rem;
+}
+.website-link {
+    color: $fontColorPurple !important;
+}
+
+.website-link:hover,
+.website-link:focus,
+.website-link:active {
+    text-decoration: underline;
+}
